@@ -1,0 +1,113 @@
+body,ul,li{
+  margin: 0;
+  padding: 0;
+}body{
+  background: url("../images/bga.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  // background-position: center center;
+}
+ul,li{
+  list-style: none;
+}
+#canvas{
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(20,134,50,.4);
+}
+.box{
+  width: 100%;
+  height: 705px;
+  background: url(../images/box.jpg);
+  position: absolute;
+  margin: auto;
+  left:0;
+  right: 0;
+  top:0;
+  bottom:0;
+  z-index: 200;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  .start{
+    position: absolute;
+    bottom:50px;
+    right:100px;
+    width: 100px;
+    height: 50px;
+    background: url(../images/anniu.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+      cursor: pointer;
+    span{
+      font-size: 24px;
+      color: #000;
+      font-family: "钟齐志莽行书";
+      font-weight: 600;
+      text-align: center;
+      line-height: 50px;
+    }
+  }
+}
+.cartel{
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 705px;
+  background: rgba(0,0,0,.7);
+  display: none;
+  .tips{
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    margin:auto;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    background:url(../images/chip.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    span{
+      cursor: pointer;
+      display: block;
+      width: 150px;
+      height: 50px;
+      margin: 10px 100px;
+      background: #fff;
+      font-size: 24px;
+      font-family: "钟齐志莽行书";
+      font-weight: 600;
+      color:#000;
+      text-align: center;
+      line-height: 40px;
+      background: url(../images/anniu.png);
+      background-size: 100%;
+      background-repeat: no-repeat;
+    }
+    .restart{
+      position: absolute;
+      bottom:200px;
+      left:25px;
+    }
+    .qipu{
+      position: absolute;
+      bottom:100px;
+      left:25px;
+    }
+    h6{
+      position: absolute;
+      top:0;
+      left:80px;
+      font-size: 60px;
+      font-family: "钟齐志莽行书";
+      font-weight: 600;
+    }
+  }
+}
